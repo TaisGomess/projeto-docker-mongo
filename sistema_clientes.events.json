@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "680eb157a22804d2ac84c1f4"
+  },
+  "client_id": {
+    "$oid": "680ea87ef53f4d35ed9db7a4"
+  },
+  "enterprise": null,
+  "cnpj_enterprise": null,
+  "freight": 50,
+  "amount_of_cleaning": 2,
+  "cleaning_date": "2023-12-10",
+  "cost_of_each_cleanin": 200,
+  "proposal_doc": "PROP-MS-001.pdf",
+  "number_proposal": "PROP-2023-001-MS",
+  "proposal_expiration_date": {
+    "$date": "2023-11-30T23:59:59.000Z"
+  },
+  "created_proposal_by": "user_id_do_sales_3",
+  "address": "Rua das Camélias, 789",
+  "city": "São Paulo",
+  "state": "SP",
+  "zip_code": "02002000",
+  "proposal_status": "accepted"
+},
+{
+  "_id": {
+    "$oid": "680eb1a1a22804d2ac84c1f6"
+  },
+  "client_id": {
+    "$oid": "680ea896f53f4d35ed9db7a6"
+  },
+  "enterprise": "Soluções Ltda",
+  "cnpj_enterprise": "12345678000190",
+  "freight": 120,
+  "amount_of_cleaning": 5,
+  "cleaning_date": "2024-01-15",
+  "cost_of_each_cleanin": 150,
+  "proposal_doc": "PROP-ESL-002.pdf",
+  "number_proposal": "PROP-2023-002-ESL",
+  "proposal_expiration_date": {
+    "$date": "2023-12-20T23:59:59.000Z"
+  },
+  "created_proposal_by": "user_id_do_sales_3",
+  "address": "Avenida das Palmeiras, 1011",
+  "city": "Rio de Janeiro",
+  "state": "RJ",
+  "zip_code": "22020030",
+  "proposal_status": "pending accepted"
+}]

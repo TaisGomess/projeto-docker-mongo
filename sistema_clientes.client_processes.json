@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "680eb05da22804d2ac84c1eb"
+  },
+  "client_id": {
+    "$oid": "680ea87ef53f4d35ed9db7a4"
+  },
+  "number": "PROC-2023-001",
+  "value": 1500,
+  "status": "ativo",
+  "class": "Cobrança",
+  "description": "Processo de cobrança referente a fatura em aberto.",
+  "created_at": {
+    "$date": "2023-10-26T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680eb0baa22804d2ac84c1ef"
+  },
+  "client_id": {
+    "$oid": "680ea896f53f4d35ed9db7a6"
+  },
+  "number": "PROC-2023-002",
+  "value": 5500.5,
+  "status": "em análise",
+  "class": "Contratual",
+  "description": "Análise de contrato de prestação de serviços.",
+  "created_at": {
+    "$date": "2023-11-15T14:30:00.000Z"
+  }
+}]
